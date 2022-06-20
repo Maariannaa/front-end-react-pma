@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+a {
+  color: #00a3ce;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.4rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:hover {
+  color: #795548;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th {
+  width: 150px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+thead tr {
+  background-image: linear-gradient(to right, #517fa4 0%, #304352 100%);
+}
+
+tbody th {
+  font-weight: 300;
+}
+
+.end {
+  font-weight: 200;
+  background-color: #ffeded;
+}
+
+.light {
+  color: #243949;
+  background-image: linear-gradient(-225deg, #73c5f385 0%, #D7FFFE 100%);
+}
+
+.dark {
   color: white;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Righteous';
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+main {
+  min-height: 73vh;
+  font-family: 'Righteous';
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  white-space: nowrap;
+}
+
+.product-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  th {
+    width: auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .table {
+    display: block;
+    overflow: scroll;
+    width: 320px;
+  }
+
+  .product-image {
+    width: 290px;
+    height: 290px;
   }
 }

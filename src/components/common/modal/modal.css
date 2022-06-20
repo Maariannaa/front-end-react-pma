@@ -1,0 +1,24 @@
+.modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: modal-show 0.5s 1 forwards;
+}
+
+.modal-content {
+  position: relative;
+  width: 480px;
+  padding: 24px;
+  background-color: white;
+  text-align: center;
+}
+
+.modal:target {
+  display: flex;
+}

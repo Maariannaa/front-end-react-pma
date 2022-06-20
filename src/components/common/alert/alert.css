@@ -1,0 +1,31 @@
+.success {
+  background-color: #dafde7;
+  color: #48b052;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+}
+
+.info {
+  background-color: rgb(226, 250, 255);
+  color: #00a3ce;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+}
+
+.error {
+  background-color: #ffeded;
+  color: #fa4a4a;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+}
+
+.warning {
+  background-color: rgb(251, 244, 218);
+  color: #e7cf5a;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+}

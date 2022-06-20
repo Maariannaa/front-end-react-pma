@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1%;
+  text-align: center;
+  border-bottom: 2px solid #00a3ce;
+  font-family: 'Monoton';
+  background-image: radial-gradient(25% 25% at 0 0, circle, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146% at 0 0, circle, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
+  color: #13547a;
+}

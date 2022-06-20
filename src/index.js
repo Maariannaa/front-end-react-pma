@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Font
+import WebFont from 'webfontloader'
+
+WebFont.load({
+  google: {
+    families: ['Righteous','Monoton','Lexend:100;200;300;400;500;600;700;800;900'],
+  },
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

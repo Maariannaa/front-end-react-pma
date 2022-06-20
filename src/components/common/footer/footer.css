@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #00a3ce;
+  padding: 10px;
+  font-family: 'Monoton';
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}

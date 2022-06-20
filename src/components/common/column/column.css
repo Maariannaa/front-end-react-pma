@@ -1,0 +1,16 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .m-column {
+    flex-direction: column;
+  }
+
+  .m-row {
+    flex-direction: row;
+  }
+}
